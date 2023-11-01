@@ -3,7 +3,7 @@ module github.com/Cardinal-Cryptography/github-actions-runners-exporter
 go 1.20
 
 require (
-	github.com/MikolajGasior/go-mod-cli v1.0.0
+	github.com/bitsnops/go-broccli v1.1.0
 	github.com/prometheus/client_golang v1.16.0
 )
 

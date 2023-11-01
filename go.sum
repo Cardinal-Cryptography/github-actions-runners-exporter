@@ -1,7 +1,7 @@
-github.com/MikolajGasior/go-mod-cli v1.0.0 h1:YNP1TnQgKGFw9KF1Zgf+2PLPr445kzjxHPl1rZgIRak=
-github.com/MikolajGasior/go-mod-cli v1.0.0/go.mod h1:M4KyBYxD8cWYLuB62FTs/Ng4pkyqcuOjnQlAYWidyic=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
+github.com/bitsnops/go-broccli v1.1.0 h1:aSIbHayHi7m8bD9pbh40/pNa9HxUvMFGwMmPf9rKfxA=
+github.com/bitsnops/go-broccli v1.1.0/go.mod h1:rGxWdzSbu6/BMH7lkWBNPGSixhlmSW1kK7K+a1RJKwo=
 github.com/cespare/xxhash/v2 v2.2.0 h1:DC2CZ1Ep5Y4k3ZQ899DldepgrayRUGE6BBZ/cd9Cj44=
 github.com/cespare/xxhash/v2 v2.2.0/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=

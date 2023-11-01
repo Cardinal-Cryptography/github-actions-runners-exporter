@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	gocli "github.com/MikolajGasior/go-mod-cli"
+	gocli "github.com/bitsnops/go-broccli"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	cli := gocli.NewCLI("github-actions-runners-exporter", "GitHub Actions' runners exporter for Prometheus", "Mikolaj Gasior <mg@forthcoming.systems>")
+	cli := gocli.NewCLI("github-actions-runners-exporter", "GitHub Actions' runners exporter for Prometheus", "devops@alephzero")
 	cmdRun := cli.AddCmd("run", "Runs the daemon, requires GITHUB_TOKEN environment variable", runHandler)
 	cmdRun.AddFlag("organization", "o", "", "GitHub Organization owner of the runners", gocli.TypeString|gocli.Required, nil)
 	cmdRun.AddFlag("sleep", "s", "", "Seconds between each request to GitHub API", gocli.TypeInt|gocli.Required, nil)
