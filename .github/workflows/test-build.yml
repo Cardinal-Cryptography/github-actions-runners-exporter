@@ -23,7 +23,7 @@ jobs:
 
       - name: Run docker containers
         run: |
-          docker run --rm -d \
+          docker run --rm \
             --name test-garu-${{ steps.get-ref-properties.outputs.sha }} \
             garu-${{ steps.get-ref-properties.outputs.sha }}
 
